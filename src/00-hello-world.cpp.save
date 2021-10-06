@@ -3,11 +3,10 @@
  */
 
 
-#include <iostream>
-
+#include <iostream
 auto main() -> int
 {
-    std::cout << "read me";
-    std::cout << "aa";
+    std::cout << "Hello, World\n";
+    std::cout << "xxx";
     return 0;
 }
