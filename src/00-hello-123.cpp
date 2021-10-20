@@ -9,11 +9,14 @@
 
 auto main() -> int
 {
+ int liczba;
+ std::cout << "Podaj liczbe \n\n";
+ std::cin >> liczba;
 
- std::cout << "Podaj liczbe";
- std::getline(std::cin, liczba); 
- std::cout << liczba;  
+	for(int i = liczba; i >= 0; --i){
+	 std::cout<< i << "\n";
 
+}
 
 
 
